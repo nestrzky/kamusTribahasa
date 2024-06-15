@@ -116,8 +116,19 @@ h1 span:before {
     height: 420px;
     background-color: white;
     text-align: center;
-    padding-top: 30px;
-    padding-right: 7px;
+    padding: 30px;
     margin: 70px 20px 20px 55px;
+    border-radius: 10px;
     float: left;
+}
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
+    background-color: #3b5999;
+    color: white;
+}
+
+.box-bahasa h3, p{
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding-top: 0px 20px;
 }
