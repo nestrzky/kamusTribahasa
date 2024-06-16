@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KAMUS TRIBAHASA</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
 </head>
 <body>
 <!--Navigasi-->
@@ -25,11 +26,17 @@
 
 <!--Banner-->
 <div class="banner" id="beranda">
-    <img src="logokamus1.jpg">
+    <img src="./assets/logokamus1.jpg">
     <h1>Hai...<span></span></h1>
     <p>Mencari kosakata lebih mudah</p>
 
-    <a href=""><button>Selengkapnya</button></a>
+    <button onclick="showMoreInfo()">Selengkapnya</button>
+</div>
+
+<!-- Penjelasan Lengkap -->
+<div id="more-info" class="hidden">
+    <h2>KAMUS TRIBAHASA</h2>
+    <p>Sebuah website yang dapat memudahkan anda untuk mencari dan memilih kosakata antara Bahasa Indonesia, Bahasa Inggris, dan Bahasa Lampung. Disini anda dapat dengan mudah mencari dan memahami kosakata dari tiga bahasa yang berbeda.</p>
 </div>
 
 <!--Bahasa-->
@@ -37,65 +44,62 @@
 <div class="box-bahasa">
     <h1>Ragam Bahasa</h1>
     <div class="box-kiri">
-        <img src="Desain tanpa judul1.png">
+        <img src="./assets/Desain tanpa judul1.png">
         <p><h3>INDONESIA</h3></p>
         <P>Kamu Bisa Menerjemahkan Bahasa Yang Ingin Kamu Terjemahkan Ke Dalam Bahasa Indonesia </P>
     </div>
 
     <div class="box-tengah">
-        <img src="Desain tanpa judul.png">
+        <img src="./assets/Desain tanpa judul.png">
         <p><h3>ENGLISH</h3></p>
         <P>You can translate the language you want into English</P>
     </div>
 
     <div class="box-kanan">
-        <img src="Desain tanpa judul2.png">
+        <img src="./assets/Desain tanpa judul2.png">
         <p><h3>LAMPUNG</h3></p>
         <P>Kamu Bisa Menerjemahkan Bahasa Yang Ingin Kamu Terjemahkan Ke Dalam Bahasa Lampung </P>
     </div>
-
-
 </div>
 
 <!--Kelas Kata-->
-
 <div class="box-kelaskata">
     <br id="kelas kata"><br><br><br>
     <h1>Kelas Kata</h1>
     <div class="box-kiri">
-        <img src="desainlogoeuyy.jpg">
+        <img src="./assets/desainlogoeuyy.jpg">
         <p><h3>NOMINA</h3></p>
         <P>kata yang menyatakan nama orang, tempat, atau semua benda dan segala yang dibendakan.</P>
     </div>
 
     <div class="box-tengah">
-        <img src="desainlogoeuyy.jpg">
+        <img src="./assets/desainlogoeuyy.jpg">
         <p><h3>VERBA</h3></p>
         <P>kelas kata yang menyatakan suatu tindakan, keberadaan, pengalaman, atau pengertian dinamis lainnya. </P>
     </div>
 
     <div class="box-kanan">
-        <img src="desainlogoeuyy.jpg">
+        <img src="./assets/desainlogoeuyy.jpg">
         <p><h3>ADJEKTIVA</h3></p>
         <P>kelas kata yang mengubah nomina atau pronomina, biasanya dengan menjelaskannya atau membuatnya menjadi lebih spesifik.</P>
     </div>
 
     <div class="box-kiri">
-        <img src="desainlogoeuyy.jpg">
+        <img src="./assets/desainlogoeuyy.jpg">
         <p><h3>PREFIKS</h3></p>
         <P>Prefiks atau awalan adalah afiks yang ditambahkan pada bagian awal atau di depan suatu kata dasar.</P>
     </div>
+</div>
 
 <br><br><br>
 <div class="box-markah">
     <h1>MARKAH BUKU</h1>
-    <img src="markahceunah.jpg" id="markah">
+    <img src="./assets/markahceunah.jpg" id="markah">
     <h2>Pembatas Buku Halaman</h2>
-
 </div>
 
 <div class="footer">
-    <p>Copyright : Dewi Anjani W </p>
+    <p>© 2024 Kelompok 4, RPL. All rights reserved</p>
 </div>
 
 </body>
