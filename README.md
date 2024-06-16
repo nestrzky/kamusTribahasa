@@ -10,5 +10,3 @@
 - Express Js
 - MongoDB
 
-### Database
-- MongoDB Atlas
