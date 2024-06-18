@@ -169,3 +169,78 @@ a {
 #statistic > .wrapper > div > small {
     font-size: 1,5rem;
 }
+
+/*
+*bahasa
+*/
+
+#bahasa {
+    background-color: #9B86BD;
+    color: #fff;
+}
+
+#bahasa > .wrapper > h4 {
+    text-align: center;
+    font-size: 2,8rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana, sans-serif;
+}
+
+#bahasa > .wrapper > h4 > span {
+    color: #850F8D;
+}
+
+#bahasa > .wrapper > p {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 50px;
+
+}
+
+.grid > .item {
+    border: 1px solid #666;
+    background-color: #7776B3;
+    border-radius: 5px;
+    position: relative;
+}
+
+.grid > .item > img {
+    width: 15%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.grid > .item > .item-detail {
+    padding: 40px;
+    font-size: 1,4rem;
+    font-weight: bold;
+    width: 70%;
+}
+
+.grid > .item > .item-detail > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid > .item > .item-detail > div > small {
+    color: #ccc;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.grid > .item > .item-detail > div > a {
+    font-size: 2rem;
+    color: #333;
+    font-weight: normal;
+}
