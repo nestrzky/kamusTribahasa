@@ -254,7 +254,7 @@ a {
 */
 
 #tentang-tribahasa {
-    background-color: #F7F9F2;
+    background-color: #9B86BD;
     color: #333;
 }
 
@@ -299,4 +299,77 @@ a {
     margin: 10px;
     background-color: #fff;
     border-radius: 10px;
+}
+
+/*
+*free course
+*/
+#free-course {
+    background-color: #7776B3;
+    color: #fff;
+}
+
+#free-course {
+    background-color: #9B86BD;
+    color: #fff;
+}
+
+#free-course > .wrapper {
+    padding: 50px 0px 50px 0px;
+}
+
+#free-course > .wrapper > h4 {
+    text-align: center;
+    font-size: 2,8rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana, sans-serif;
+
+}
+
+#free-course > .wrapper > h4 > span {
+    color: #850F8D;
+}
+
+#free-course > .wrapper > p {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+#free-course > .wrapper > .grid > .item {
+    background-color: #222831;
+    margin: 0px;
+    padding: 0px;
+}
+
+#free-course > .wrapper > .grid > .item > .item-detail {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1,4rem;
+    width: 100%;
+}
+
+#free-course > .wrapper > .grid > .item > .item-detail > img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#free-course > .wrapper > .grid > .item > .item-detail > div {
+    padding: 10px 20px 10px 20px;
+}
+
+/*
+*copyright
+*/
+
+footer {
+    background-color: #850F8D;
+    color: #fff;
+    text-align: center;
+}
+footer > .wrapper {
+    padding: 30px 0px 30px 0px;
 }
