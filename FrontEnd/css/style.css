@@ -1,164 +1,171 @@
-* {
-    margin: 0;
-    padding: 0;
+html, 
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
     font-family: verdana;
 }
 
-.navigasi {
-    background-color: #3b4997;
-    width: 100%;
-    height: 70px;
-    color: white;
-    position: fixed;
+.wrapper {
+    width: 1024px;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
 }
 
-.logo {
-    float: left;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 30px;
+/*
+* menu
+*/
+nav {
+    background-color: #9B86BD;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav > .wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    align-items: center;
 }
 
 .menu {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    z-index: 1000;
+    width: 50%;
 }
 
-.menu ul {
-    list-style: none;
-}
-
-.menu ul li {
-    display: inline-block;
-    margin-right: 30px;
-}
-
-.menu ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-.menu ul li a:hover {
-    color: lightskyblue;
-    font-style: italic;
-}
-
-.hidden {
-    display: none;
-}
-
-#more-info {
-    background-color: #f9f9f9;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.banner {
-    background-color: #3b5999;
-    height: 600px;
-    text-align: center;
-    color: white;
-}
-
-.banner img {
-    border-radius: 100px;
-    height: 150px;
-    border: 6px solid #a7e6ff;
-    margin-top: 100px;
-}
-
-.banner h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.banner button {
-    margin-top: 60px;
-    padding: 10px;
-    width: 400px;
-    border-radius: 50px;
-    border: none;
-}
-
-.banner button:hover {
-    background-color: #3b5999;
-    border: 1px solid white;
-    color: white;
-}
-
-h1 span:before {
-    content: '';
-    animation: gerak infinite 8s ease;
-    transform: translateY(-50%);
-    color: lightblue;
-    font-size: 70px;
-}
-
-@keyframes gerak {
-    0% {
-        content: 'Selamat Datang';
-    }
-
-    50% {
-        content: 'Di Kamus Tribahasa';
-    }
-
-    100% {
-        content: 'Terimakasih Telah Singgah';
-    }
-}
-
-.box-bahasa, .box-kelaskata, .box-markah {
-    text-align: center;
-    color: #4d4d4d;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    clear: both; /* Membersihkan float sebelumnya */
-}
-
-.box-bahasa .box-kiri,
-.box-bahasa .box-tengah,
-.box-bahasa .box-kanan,
-.box-kelaskata .box-kiri,
-.box-kelaskata .box-tengah,
-.box-kelaskata .box-kanan,
-.box-markah .box-markah {
-    width: 400px;
-    height: 420px;
-    background-color: white;
-    text-align: center;
-    padding: 30px;
-    margin: 20px auto; /* Posisi tengah */
-    border-radius: 10px;
-}
-
-.box-kiri:hover, .box-tengah:hover, .box-kanan:hover, .box-markah:hover {
-    background-color: #3b5999;
-    color: white;
-}
-
-.box-bahasa h3,
-.box-bahasa p,
-.box-kelaskata h3,
-.box-kelaskata p,
-.box-markah h1,
-.box-markah h2 {
-    margin-top: 10px;
-    margin-bottom: 13px;
-}
-
-.footer {
-    background-color: gray;
-    width: 100%;
-    height: 40px;
-    color: white;
+.menu > ul {
     display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo > img {
+    height: 45px;
+}
+
+/*
+* Pelangi / bg
+*/
+
+header {
+    background: url(bgbaru.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: verdana, sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 0 0 1px #000;
+}
+
+.header-opacity {
+    background-color: #E2BBE9;
+    width: 100%;
+    height: 100%;
+    opacity: 0,7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-pelangi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
-    padding: 3px;
-    margin: 50px auto 0;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-pelangi > h4 {
+    color: #850F8D;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-pelangi > h5 {
+    color: #000;
+    margin: 0px;
+    padding: 5px;
+    font-size: 3,5rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+
+.header-pelangi > p {
+    padding: 5px;
+    margin: 0px 5px 20px 5px;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: none;
+}
+
+.button {
+    background-color: #850F8D;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-family: verdana, sans-serif;
+}
+
+.button-xl {
+    font-size: 1,4rem;
+    padding: 20px;
+}
+
+/*
+* statistic
+*/
+
+#statistic {
+    background-color: #7776B3;
+    color: #fff;
+    font-family: verdana, sans-serif;
+}
+
+#statistic > .wrapper {
+    padding: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#statistic > .wrapper > div {
+    text-align: center;
+}
+
+#statistic > .wrapper > div > p {
+    font-size:3,6rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+#statistic > .wrapper > div > p > i {
+    margin-right: 10px;
+    font-size:3,6rem;
+}
+
+#statistic > .wrapper > div > small {
+    font-size: 1,5rem;
 }
