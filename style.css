@@ -179,6 +179,10 @@ a {
     color: #fff;
 }
 
+#bahasa > .wrapper {
+    padding: 50px 0px 50px 0px;
+}
+
 #bahasa > .wrapper > h4 {
     text-align: center;
     font-size: 2,8rem;
@@ -195,7 +199,7 @@ a {
     text-align: center;
     margin: 0px;
     padding: 0px;
-    margin: 50px;
+    margin-bottom: 50px;
 }
 
 .grid {
@@ -243,4 +247,56 @@ a {
     font-size: 2rem;
     color: #333;
     font-weight: normal;
+}
+
+/*
+*tentang tribahasa
+*/
+
+#tentang-tribahasa {
+    background-color: #F7F9F2;
+    color: #333;
+}
+
+#tentang-tribahasa > .wrapper {
+    padding: 50px 0px 50px 0px;
+}
+
+#tentang-tribahasa > .wrapper > h4 {
+    text-align: center;
+    font-size: 2,8rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana, sans-serif;
+}
+
+#tentang-tribahasa > .wrapper > p {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+#tentang-tribahasa > .wrapper > div {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tentang-tribahasa > .wrapper > div > .foto {
+    width: 30%;
+}
+
+#tentang-tribahasa > .wrapper > div > .foto > img {
+    max-width: 100%;
+}
+
+#tentang-tribahasa > .wrapper > div > .desc {
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
 }
