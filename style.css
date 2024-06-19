@@ -375,8 +375,27 @@ footer > .wrapper {
 }
 
 /*
+* hamburger menu
+*/
+
+/*
 * 1024, 900, 768, 600, 450
 */
+button.hamburger-menu {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+button.hamburger-menu > i {
+    color: #fff;
+    font-size: 1,5rem;
+}
+
+button.hamburger-menu > i.icon-close {
+    display: none;
+}
 
 @media only screen and (max-width: 1024px) {
     .wrapper {
@@ -476,5 +495,28 @@ footer > .wrapper {
         width: 70%;
         padding: 20px;
         margin: 10px;
+    }
+
+    button.hamburger-menu {
+        display: inline;
+    }
+
+    .menu {
+        display: none;
+    }
+    .tampil {
+        display: inline;
+    }
+    .tampil > ul {
+        flex-direction: column;
+        background-color: #850F8D;
+        width: 100%;
+        position: fixed;
+        top: 85px;
+        left: 0;
+    }
+
+    .tampil > ul > li {
+        padding: 10px 20px 10px 20px;
     }
 }
