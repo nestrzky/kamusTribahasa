@@ -156,7 +156,7 @@ a {
 }
 
 #statistic > .wrapper > div > p {
-    font-size:3,6rem;
+    font-size:3,5rem;
     margin: 0px;
     padding: 0px;
 }
@@ -405,7 +405,7 @@ button.hamburger-menu > i.icon-close {
 
 @media only screen and (max-width: 900px) {
     #statistic > .wrapper > div > p {
-        font-size:4,5rem;
+        font-size:2,5rem;
         margin: 0px;
         padding: 0px;
     }
@@ -415,7 +415,7 @@ button.hamburger-menu > i.icon-close {
     }
 
     #statistic > .wrapper > div > small {
-        font-size: 3rem;
+        font-size: 1rem;
     }
 
     .grid {
