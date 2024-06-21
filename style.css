@@ -4,6 +4,7 @@ body {
     padding: 0px;
     font-size: 16px;
     font-family: verdana;
+    scroll-behavior: smooth;
 }
 
 .wrapper {
