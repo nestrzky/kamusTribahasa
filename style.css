@@ -1,0 +1,522 @@
+html, 
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: verdana;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+/*
+* menu
+*/
+nav {
+    background-color: #9B86BD;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav > .wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu > ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo > img {
+    height: 45px;
+}
+
+/*
+* Pelangi / bg
+*/
+
+header {
+    background: url(bgbaru.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: verdana, sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 0 0 1px #000;
+}
+
+.header-opacity {
+    background-color: #E2BBE9;
+    width: 100%;
+    height: 100%;
+    opacity: 0,7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-pelangi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-pelangi > h4 {
+    color: #850F8D;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-pelangi > h5 {
+    color: #000;
+    margin: 0px;
+    padding: 5px;
+    font-size: 3,5rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+
+.header-pelangi > p {
+    padding: 5px;
+    margin: 0px 5px 20px 5px;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: none;
+}
+
+.button {
+    background-color: #850F8D;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-family: verdana, sans-serif;
+}
+
+.button-xl {
+    font-size: 1,4rem;
+    padding: 20px;
+}
+
+/*
+* statistic
+*/
+
+#statistic {
+    background-color: #7776B3;
+    color: #fff;
+    font-family: verdana, sans-serif;
+}
+
+#statistic > .wrapper {
+    padding: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#statistic > .wrapper > div {
+    text-align: center;
+}
+
+#statistic > .wrapper > div > p {
+    font-size:3,5rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+#statistic > .wrapper > div > p > i {
+    margin-right: 10px;
+    font-size:3,6rem;
+}
+
+#statistic > .wrapper > div > small {
+    font-size: 1,5rem;
+}
+
+/*
+*bahasa
+*/
+
+#bahasa {
+    background-color: #9B86BD;
+    color: #fff;
+}
+
+#bahasa > .wrapper {
+    padding: 50px 0px 50px 0px;
+}
+
+#bahasa > .wrapper > h4 {
+    text-align: center;
+    font-size: 2,8rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana, sans-serif;
+}
+
+#bahasa > .wrapper > h4 > span {
+    color: #850F8D;
+}
+
+#bahasa > .wrapper > p {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 50px;
+
+}
+
+.grid > .item {
+    border: 1px solid #666;
+    background-color: #7776B3;
+    border-radius: 5px;
+    position: relative;
+}
+
+.grid > .item > img {
+    width: 15%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.grid > .item > .item-detail {
+    padding: 40px;
+    font-size: 1,4rem;
+    font-weight: bold;
+    width: 70%;
+}
+
+.grid > .item > .item-detail > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid > .item > .item-detail > div > small {
+    color: #ccc;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.grid > .item > .item-detail > div > a {
+    font-size: 2rem;
+    color: #333;
+    font-weight: normal;
+}
+
+/*
+*tentang tribahasa
+*/
+
+#tentang-tribahasa {
+    background-color: #9B86BD;
+    color: #333;
+}
+
+#tentang-tribahasa > .wrapper {
+    padding: 50px 0px 50px 0px;
+}
+
+#tentang-tribahasa > .wrapper > h4 {
+    text-align: center;
+    font-size: 2,8rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana, sans-serif;
+}
+
+#tentang-tribahasa > .wrapper > p {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+#tentang-tribahasa > .wrapper > div {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tentang-tribahasa > .wrapper > div > .foto {
+    width: 30%;
+}
+
+#tentang-tribahasa > .wrapper > div > .foto > img {
+    max-width: 100%;
+}
+
+#tentang-tribahasa > .wrapper > div > .desc {
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/*
+*free course
+*/
+#free-course {
+    background-color: #7776B3;
+    color: #fff;
+}
+
+#free-course {
+    background-color: #9B86BD;
+    color: #fff;
+}
+
+#free-course > .wrapper {
+    padding: 50px 0px 50px 0px;
+}
+
+#free-course > .wrapper > h4 {
+    text-align: center;
+    font-size: 2,8rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana, sans-serif;
+
+}
+
+#free-course > .wrapper > h4 > span {
+    color: #850F8D;
+}
+
+#free-course > .wrapper > p {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+#free-course > .wrapper > .grid > .item {
+    background-color: #222831;
+    margin: 0px;
+    padding: 0px;
+}
+
+#free-course > .wrapper > .grid > .item > .item-detail {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1,4rem;
+    width: 100%;
+}
+
+#free-course > .wrapper > .grid > .item > .item-detail > img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#free-course > .wrapper > .grid > .item > .item-detail > div {
+    padding: 10px 20px 10px 20px;
+}
+
+/*
+*copyright
+*/
+
+footer {
+    background-color: #850F8D;
+    color: #fff;
+    text-align: center;
+}
+footer > .wrapper {
+    padding: 30px 0px 30px 0px;
+}
+
+/*
+* hamburger menu
+*/
+
+/*
+* 1024, 900, 768, 600, 450
+*/
+button.hamburger-menu {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+button.hamburger-menu > i {
+    color: #fff;
+    font-size: 1,5rem;
+}
+
+button.hamburger-menu > i.icon-close {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .wrapper {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #statistic > .wrapper > div > p {
+        font-size:2,5rem;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #statistic > .wrapper > div > p > i {
+        font-size:4,5rem;
+    }
+
+    #statistic > .wrapper > div > small {
+        font-size: 1rem;
+    }
+
+    .grid {
+        grid-template-columns: 45% 45%;
+    }
+
+    .item > img {
+        width: 8%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .menu {
+        width: 60%;
+    }
+    .header-pelangi > h4 {
+        font-size: 1,5rem;
+    }
+    .header-pelangi > h5 {
+        font-size: 2rem;
+        line-height: 2,2rem;
+    }
+    .header-pelangi > p {
+        font-size: 0,8rem;
+    }
+
+    .button {
+        padding: 5px;
+    }
+    .button-xl {
+        font-size: 1,2rem;
+        padding: 10px;
+    }
+
+    #statistic > .wrapper > div > p {
+        font-size: 1,5rem;
+        margin: 0px;
+    }
+    #statistic > .wrapper > div > p > i {
+        font-size:1,5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .grid {
+        grid-template-columns: 100%;
+    }
+
+    #statistic > .wrapper {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    #statistic > .wrapper > div {
+        display: flex;
+    }
+
+    #statistic > .wrapper > div > small {
+        font-size: 1,5rem;
+        padding-left: 10px;
+    }
+
+    #tentang-tribahasa > .wrapper > div {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #tentang-tribahasa > .wrapper > div > .foto {
+        width: 50%;
+    }
+
+    #tentang-tribahasa > .wrapper > div > .foto > img {
+        max-width: 100%;
+    }
+
+    #tentang-tribahasa > .wrapper > div > .desc {
+        width: 70%;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    button.hamburger-menu {
+        display: inline;
+    }
+
+    .menu {
+        display: none;
+    }
+    .tampil {
+        display: inline;
+    }
+    .tampil > ul {
+        flex-direction: column;
+        background-color: #850F8D;
+        width: 100%;
+        position: fixed;
+        top: 85px;
+        left: 0;
+    }
+
+    .tampil > ul > li {
+        padding: 10px 20px 10px 20px;
+    }
+}
